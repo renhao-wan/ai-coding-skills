@@ -1,3 +1,10 @@
+---
+name: word-to-markdown
+description: Convert Word documents (.docx) to Markdown format using mammoth + html2text. Supports tables, images extraction, and text formatting.
+allowed-tools: ["Bash", "Read", "Write", "Glob", "Grep", "AskUserQuestion"]
+version: 1.0.0
+keywords: [word, docx, markdown, convert, extract, mammoth]
+---
 # Word to Markdown Converter
 
 将 Word 文档（.docx）转换为 Markdown 格式，支持复杂布局、表格、图片提取。
@@ -6,7 +13,7 @@
 
 **适用场景：**
 
-- 试卷/测验等 Word 文档转为可编辑的 Markdown
+- 试卷/测验 Word 文档转为可编辑的 Markdown
 - 学术论文提取
 - 技术文档转换
 - 包含表格和图片的 Word 文档
