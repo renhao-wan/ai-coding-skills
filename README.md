@@ -10,7 +10,9 @@ ai-coding-skills/
 ├── generate-eight-part-prompt/        # 八股文档生成提示词组装
 ├── generate-exam-prep/                # 试卷/备考资料生成
 ├── github-release-note-generator/     # GitHub Release 公告生成
-├── internship-log/                    # 实习日志
+├── internship-log/                    # 实习日志：每日记录
+├── internship-log-review/             # 实习日志：审核
+├── internship-log-monthly/            # 实习日志：月结与素材库
 ├── java-javadoc-auto-generator/       # Java Javadoc 自动生成
 ├── java-wheel-doc-generator/          # Java 轮子库文档生成
 ├── oss-release-sop/                   # 开源项目发布 SOP
@@ -32,6 +34,10 @@ ai-coding-skills/
 | **apache-license** | 生成 Apache 2.0 许可证文件 | 开源项目 |
 | **oss-release-sop** | 开源项目发布标准操作流程 | 项目发布 |
 | **internship-log** | 逐条提问整理当天实习工作并写入日志 | 实习记录 |
+| **internship-log-review** | 按规则文件逐项审核日志，只读输出问题清单 | 日志自查 |
+| **internship-log-monthly** | 把当月日志提炼成本月小结与素材库案例 | 月底总结 |
+
+实习日志这三个 Skill 分工：写（internship-log）、审（internship-log-review）、月结（internship-log-monthly）。格式和保密标准由用户各自项目里的规则文件提供，Skill 只负责流程。
 
 ## 使用方式
 
